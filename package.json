@@ -1,0 +1,24 @@
+{
+  "name": "eatdaburger",
+  "version": "1.0.0",
+  "description": "A burger logger that uses MySQL, Node, Express, Handlebars, and an ORM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brennandoehring/eatdaburger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brennandoehring/eatdaburger/issues"
+  },
+  "homepage": "https://github.com/brennandoehring/eatdaburger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
+}
