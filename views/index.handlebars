@@ -2,23 +2,23 @@
 
 <div class="container">
     <div class="row">
-        <div class="col">
+        <div class="col-sm burgers-available">
             <h2>Burgers Available</h2>
             {{#each burgers}}
             {{#unless this.devoured}}
             <div>
                 <form action="/burgers/{{this.id}}?_method=PUT" method="POST" class="update-button">
                     {{this.burger_name}}
-                    <button type="submit" class="btn btn-primary" id="burger-ready">DEVOUR IT</button>
+                    <button type="submit" class="btn btn-primary" id="burger-ready">Devour it!</button>
                 </form>
             </div>
             {{/unless}}
             {{/each}}
         </div>
-        <div class="col">
+        <div class="col-sm">
             <img src="assets/img/burger.jpg" id="burgerIMG">
         </div>
-        <div class="col">
+        <div class="col-sm">
             <h2>Burgers Devoured</h2>
             {{#each burgers}}
             {{#if this.devoured}}

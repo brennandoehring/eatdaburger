@@ -1,4 +1,37 @@
+body {
+    background-color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
+
 #burgerIMG {
-    max-height: 300px;
-    max-width: 300px;
+    height: 300px;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#enter-burger {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+
+#add-burger {
+    padding: 50px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.burgers-available {
+    text-align: right;
+    padding-right: 30px;
 }
